@@ -8,30 +8,32 @@
 
     <title>LINX CHALLENGE</title>
   </head>
+
   <body>
     <header>
       <h1>
-        <span>uma seleção de produtos</span><span>especial para você</span>
+        <span class="part1">uma seleção de produtos</span>
+        <span class="part2">especial para você</span>
+        <span class="part3">
+          Todos os produtos desta lista foram selecionados a partir da sua
+          navegação. Aproveite!
+        </span>
       </h1>
-      <p>
-        Todos os produtos desta lista foram selecionados a partir da sua
-        navegação. Aproveite!
-      </p>
 
       <nav>
-        <div>
-          <a href="#">Conheça a Linx</a>
-          <a href="#">Ajude o algorítimo</a>
-        </div>
-        <div>
-          <a href="#">Seus produtos</a>
-          <a href="#">Compartilhe</a>
-        </div>
+        <ul>
+          <li><a href="">Conheça a Linx</a></li>
+          <li><a href="">Ajude o algorítimo</a></li>
+        </ul>
+        <ul>
+          <li><a href="">Seus produtos</a></li>
+          <li><a href="">Compartilhe</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <section>
+      <section class="section1">
         <article>
           <h2>Ajude o algorítimo a ser mais certeiro</h2>
           <p>
@@ -59,22 +61,22 @@
         <form></form>
       </section>
 
-      <section>
-        <header>
+      <section class="section2">
+        <div class="header">
           <hr />
           <h2>Sua seleção especial</h2>
           <hr />
-        </header>
+        </div>
         <div id="productsDisplay"></div>
         <button id="loadMoreButton">Load more products here</button>
       </section>
 
-      <section>
-        <header>
+      <section class="section3">
+        <div class="header">
           <hr />
           <h2>Compartilhe a novidade</h2>
           <hr />
-        </header>
+        </div>
 
         <p>
           Quer que seus amigos também ganhem a lista personalizada deles?
