@@ -120,3 +120,29 @@ footer p {
   padding: 4px;
   font-size: 14px;
 }
+
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+/* MEDIA QUERY */
+@media (max-width: 1000px) {
+  h1 {
+    width: 420px;
+    align-items: flex-start;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    max-width: 420px;
+  }
+
+  footer {
+    height: 160px;
+  }
+}
