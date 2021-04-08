@@ -46,10 +46,10 @@ function renderProductsDisplay() {
         <div class="infoDiv">
           <p class="cardName">${name}</p>
           <p class="cardDescription">${description}</p>
-          <p class="cardOldPrice">De: R$${oldPrice}</p>
-          <p class="cardPrice">Por: R$${price}</p>
+          <p class="cardOldPrice">De: R$${oldPrice.toFixed(2)}</p>
+          <p class="cardPrice">Por: R$${price.toFixed(2)}</p>
           <p class="cardInst">
-            ou ${installments.count}x de R$${installments.value}
+            ou ${installments.count}x de R$${installments.value.toFixed(2)}
           </p>
           <button id="${id}" class="cardButton">Comprar</button>
         </div>
