@@ -59,25 +59,31 @@
           </p>
         </article>
 
-        <form id="algorithmForm" class="algorithmForm">
+        <form id="algorithmForm" name="algorithmForm" class="algorithmForm">
           <div>
             <label for="name">Nome do seu amigo:</label>
-            <input type="text" id="name" name="name" />
+            <input type="text" id="name" name="name" required />
           </div>
 
           <div>
             <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" />
+            <input type="email" id="email" name="email" required />
           </div>
 
           <div>
             <label for="cpf">CPF:</label>
-            <input type="number" id="cpf" name="cpf" />
+            <input type="number" id="cpf" name="cpf" required />
           </div>
 
           <div class="radioGroup1">
             <div>
-              <input type="radio" id="male" name="gender" value="male" />
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required
+              />
               <label for="male">Masculino</label>
             </div>
             <div>
@@ -113,7 +119,7 @@
           <hr />
         </div>
 
-        <form id="sharingForm" class="sharingForm">
+        <form id="sharingForm" name="sharingForm" class="sharingForm">
           <p>
             Quer que seus amigos também ganhem a lista personalizada deles?
             Preencha agora!
@@ -122,12 +128,12 @@
           <div>
             <div>
               <label for="name">Nome do seu amigo:</label>
-              <input type="text" id="name" name="name" />
+              <input type="text" id="name" name="name" required />
             </div>
 
             <div>
               <label for="email">E-mail:</label>
-              <input type="email" id="email" name="email" />
+              <input type="email" id="email" name="email" required />
             </div>
           </div>
           <input type="submit" value="Enviar agora" />
