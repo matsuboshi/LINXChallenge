@@ -16,14 +16,25 @@ body {
 /* HEADER */
 /* HEADER */
 header {
+  position: relative;
   height: 400px;
-  background-color: #707070;
+  background-color: #70707000;
   color: #ffffff;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.topTriangle {
+  z-index: -5;
+  position: absolute;
+  bottom: 0;
+  height: 250px;
+  width: 0;
+  border-right: 100vw solid #555;
+  border-bottom: 150px solid transparent;
 }
 
 h1 {
@@ -321,8 +332,9 @@ section .header h2 {
 /* FOOTER */
 /* FOOTER */
 footer {
+  position: relative;
   height: 290px;
-  background-color: #707070;
+  background-color: #70707000;
   color: #ffffff;
   width: 100%;
   display: flex;
@@ -334,6 +346,16 @@ footer {
 footer p {
   padding: 4px;
   font-size: 14px;
+}
+
+.bottomTriangle {
+  z-index: -5;
+  position: absolute;
+  top: 0;
+  height: 220px;
+  width: 0;
+  border-right: 100vw solid #555;
+  border-top: 70px solid transparent;
 }
 
 /* MEDIA QUERY */
@@ -402,7 +424,6 @@ footer p {
 
   main {
     max-width: 420px;
-    min-height: calc(100vh - 400px - 160px);
   }
 
   .cardsDiv {
@@ -434,7 +455,8 @@ footer p {
     display: none;
   }
 
-  footer {
-    height: 160px;
+  .bottomTriangle {
+    height: 250px;
+    border-top: 40px solid transparent;
   }
 }
