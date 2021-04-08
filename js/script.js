@@ -25,7 +25,7 @@ function enableLoadMoreButton() {
 }
 
 function renderProductsDisplay() {
-  let productsHTML = '<div>'; //opening a div section
+  let productsHTML = '<div class="cardsDiv">'; //opening a div section
 
   allProductsNow.forEach((features) => {
     const {
@@ -39,19 +39,19 @@ function renderProductsDisplay() {
     } = features;
 
     const productHTML = `
-      <div class="productCard" style="display: flex">
-        <div>
+      <div class="productCard">
+        <div class="imageDiv">
           <img src="${image}" alt=" foto de ${name}" />
         </div>
-        <div>
-          <p>${name}</p>
-          <p>${description}</p>
-          <ul>
-            <li>${oldPrice}</li>
-            <li>${price}</li>
-            <li>${installments.count}</li>
-            <li>${installments.value}</li>
-          </ul>
+        <div class="infoDiv">
+          <p class="cardName">${name}</p>
+          <p class="cardDescription">${description}</p>
+          <p class="cardOldPrice">De: R$${oldPrice}</p>
+          <p class="cardPrice">Por: R$${price}</p>
+          <p class="cardInst">
+            ou ${installments.count}x de R$${installments.value}
+          </p>
+          <button class="cardButton">Comprar</button>
         </div>
       </div>
     `;
