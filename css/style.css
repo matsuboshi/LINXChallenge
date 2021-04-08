@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* * {
-  border: 1px solid red;
-} */
-
 body {
   font-family: 'Lato', sans-serif;
   color: #888888;
 }
 
-/* HEADER */
-/* HEADER */
-/* HEADER */
-/* HEADER */
-/* HEADER */
-/* HEADER */
+/* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */ /* HEADER */
 header {
   position: relative;
   height: 400px;
@@ -82,12 +73,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* MAIN */
-/* MAIN */
-/* MAIN */
-/* MAIN */
-/* MAIN */
-/* MAIN */
+/* MAIN */ /* MAIN */ /* MAIN */ /* MAIN */ /* MAIN */ /* MAIN */
 main {
   margin: 0 auto;
   max-width: 930px;
@@ -146,12 +132,7 @@ section .header h2 {
   padding-bottom: 80px;
 }
 
-/* PRODUCT CARD */
-/* PRODUCT CARD */
-/* PRODUCT CARD */
-/* PRODUCT CARD */
-/* PRODUCT CARD */
-/* PRODUCT CARD */
+/* PRODUCT CARD */ /* PRODUCT CARD */ /* PRODUCT CARD */ /* PRODUCT CARD */ /* PRODUCT CARD */ /* PRODUCT CARD */
 .cardsDiv {
   display: flex;
   flex-wrap: wrap;
@@ -235,12 +216,7 @@ section .header h2 {
   margin: 50px;
 }
 
-/* FORMS */
-/* FORMS */
-/* FORMS */
-/* FORMS */
-/* FORMS */
-/* FORMS */
+/* FORMS */ /* FORMS */ /* FORMS */ /* FORMS */ /* FORMS */ /* FORMS */
 
 .algorithmForm {
   width: 340px;
@@ -325,12 +301,7 @@ section .header h2 {
   width: 100%;
   background: #ffffff;
 }
-/* FOOTER */
-/* FOOTER */
-/* FOOTER */
-/* FOOTER */
-/* FOOTER */
-/* FOOTER */
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 footer {
   position: relative;
   height: 290px;
@@ -358,12 +329,7 @@ footer p {
   border-top: 70px solid transparent;
 }
 
-/* MEDIA QUERY */
-/* MEDIA QUERY */
-/* MEDIA QUERY */
-/* MEDIA QUERY */
-/* MEDIA QUERY */
-/* MEDIA QUERY */
+/* MEDIA QUERY */ /* MEDIA QUERY */ /* MEDIA QUERY */ /* MEDIA QUERY */ /* MEDIA QUERY */ /* MEDIA QUERY */
 @media (max-width: 1000px) {
   main {
     max-width: 680px;

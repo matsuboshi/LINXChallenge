@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
   enableLoadMoreButton();
 });
 
+//It fetches data from API endpoint when loading the page for the first time or when requested through the "LOAD MORE PRODUCTS" button
 async function fetchProducts() {
   const resource = await fetch(url);
   const json = await resource.json();
@@ -19,11 +20,13 @@ async function fetchProducts() {
   renderProductsDisplay();
 }
 
+//This function enables the EVENT LISTENER on the "LOAD MORE PRODUCTS" button
 function enableLoadMoreButton() {
   const loadMoreButton = document.querySelector('#loadMoreButton');
   loadMoreButton.addEventListener('click', fetchProducts);
 }
 
+//This function renders all the products every time the "allProductsNow" array is updated
 function renderProductsDisplay() {
   let productsHTML = '<div class="cardsDiv">'; //opening a div section
 
