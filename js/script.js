@@ -51,7 +51,7 @@ function renderProductsDisplay() {
           <p class="cardInst">
             ou ${installments.count}x de R$${installments.value}
           </p>
-          <button class="cardButton">Comprar</button>
+          <button id="${id}" class="cardButton">Comprar</button>
         </div>
       </div>
     `;
