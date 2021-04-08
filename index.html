@@ -80,12 +80,25 @@
           <hr />
         </div>
 
-        <p>
-          Quer que seus amigos também ganhem a lista personalizada deles?
-          Preencha agora!
-        </p>
+        <form id="sharingForm" class="sharingForm">
+          <p>
+            Quer que seus amigos também ganhem a lista personalizada deles?
+            Preencha agora!
+          </p>
 
-        <form></form>
+          <div>
+            <div>
+              <label for="name">Nome do seu amigo:</label>
+              <input type="text" id="name" name="name" />
+            </div>
+
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+          </div>
+          <input type="submit" value="Enviar agora" />
+        </form>
       </section>
     </main>
 
