@@ -107,10 +107,32 @@ section .header h2 {
   padding: 10px;
 }
 
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.firstArticle {
+  width: 520px;
+}
+
+.firstArticle h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.firstArticle p {
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
 .section2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 80px;
 }
 
 /* PRODUCT CARD */
@@ -209,6 +231,15 @@ section .header h2 {
 /* FORMS */
 /* FORMS */
 
+.algorithmForm {
+  width: 340px;
+}
+
+.algorithmForm div {
+  display: flex;
+  flex-direction: column;
+}
+
 .sharingForm div {
   display: flex;
 }
@@ -226,20 +257,26 @@ section .header h2 {
   text-align: center;
 }
 
+.algorithmForm div {
+  padding-bottom: 20px;
+}
+
 .sharingForm div div {
   display: flex;
   flex-direction: column;
   width: 340px;
   padding: 20px;
 }
-
+.algorithmForm div label,
 .sharingForm div div label {
   margin-bottom: 8px;
   font-size: 12px;
 }
+.algorithmForm div input,
 .sharingForm div div input {
   font-size: 16px;
   height: 30px;
+  border: 1px solid #707070;
 }
 
 .sharingForm input[type='submit'] {
@@ -254,6 +291,29 @@ section .header h2 {
   margin-bottom: 70px;
 }
 
+.radioGroup1 {
+  display: flex;
+  flex-direction: row !important;
+  margin-bottom: 8px;
+}
+
+.radioGroup1 div {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0;
+}
+
+.algorithmForm input[type='submit'] {
+  color: #888888;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  background: #ffffff;
+}
 /* FOOTER */
 /* FOOTER */
 /* FOOTER */
@@ -290,6 +350,18 @@ footer p {
   section .header {
     margin-bottom: 20px;
     padding: 0;
+  }
+
+  .section1 {
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .firstArticle,
+  .algorithmForm {
+    width: 100%;
+    padding-bottom: 20px;
   }
 
   .sharingForm {

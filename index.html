@@ -34,7 +34,7 @@
 
     <main>
       <section class="section1">
-        <article>
+        <article class="firstArticle">
           <h2>Ajude o algorítimo a ser mais certeiro</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -58,7 +58,39 @@
           </p>
         </article>
 
-        <form></form>
+        <form id="algorithmForm" class="algorithmForm">
+          <div>
+            <label for="name">Nome do seu amigo:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div>
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf" name="cpf" />
+          </div>
+
+          <div class="radioGroup1">
+            <div>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Masculino</label>
+            </div>
+            <div>
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Feminino</label>
+            </div>
+            <div>
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Outro</label>
+            </div>
+          </div>
+
+          <input type="submit" value="Enviar" />
+        </form>
       </section>
 
       <section class="section2">
