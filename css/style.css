@@ -33,7 +33,7 @@ header {
   bottom: 0;
   height: 250px;
   width: 0;
-  border-right: 100vw solid #555;
+  border-right: 100vw solid #707070;
   border-bottom: 150px solid transparent;
 }
 
@@ -354,7 +354,7 @@ footer p {
   top: 0;
   height: 220px;
   width: 0;
-  border-right: 100vw solid #555;
+  border-right: 100vw solid #707070;
   border-top: 70px solid transparent;
 }
 
